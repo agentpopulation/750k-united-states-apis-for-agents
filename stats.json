@@ -1,0 +1,1726 @@
+{
+  "repo": "united-states-api-endpoints",
+  "title": "United States API endpoints",
+  "snapshot": "2026-11-16",
+  "snapshot_text": "16 Nov 2026",
+  "snapshot_time": "2026-11-16 00:00:00 IST",
+  "run": true,
+  "tested_total": 4452803,
+  "passed_total": 3346053,
+  "rows": 751070,
+  "unique_urls": 751070,
+  "services": 23179,
+  "country_codes": 1,
+  "single_country": "US",
+  "agent_ready": 751069,
+  "range": {
+    "min": "2026-11-16",
+    "max": "2026-11-17",
+    "text": "16–17 Nov 2026"
+  },
+  "formats": {
+    "json": 751069,
+    "geojson": 1
+  },
+  "categories": {
+    "Navigation & Geo/Maps": 310789,
+    "Government & Open Data": 245073,
+    "Transport & Mobility": 56096,
+    "Environment": 30809,
+    "Hydrology & Oceans": 28895,
+    "Health": 18441,
+    "Statistics & Economy": 15173,
+    "Hazards": 13262,
+    "Weather & Climate": 12091,
+    "Energy": 10619,
+    "Finance": 3136,
+    "Maritime": 2759,
+    "Aviation": 2288,
+    "Science": 1639
+  },
+  "tags": {
+    "no-key": 751070,
+    "agent-ready": 751069,
+    "json": 751069,
+    "geojson": 1
+  },
+  "dates": {
+    "2026-11-17": 2106,
+    "2026-11-16": 748964
+  },
+  "countryNames": {
+    "US": "United States"
+  },
+  "leftOutCredential": 0,
+  "leftOutListing": 0,
+  "left_out_by_reason": {
+    "listing page, not a data call": 0,
+    "credential in the address": 0,
+    "private or local address": 0,
+    "email-like address": 1036,
+    "survey form layer": 13687,
+    "camera or image URL": 0,
+    "stored-login proxy": 0,
+    "class-exercise copy": 358,
+    "editable layer": 802,
+    "police stop records": 97,
+    "form answer layer": 2034,
+    "needs an Indian network location": 0,
+    "leak check match": 3,
+    "coursework layer": 97699,
+    "public input layer": 7760,
+    "personal records layer": 5405,
+    "service name like a class layer or a person": 0,
+    "social network server information": 0,
+    "another address of a left-out layer": 839,
+    "teaching organisation": 9901,
+    "class account organisation": 153426,
+    "class set layer": 35772,
+    "university, college or school organisation": 377724,
+    "repeated address": 0,
+    "address already in an earlier pack": 1613,
+    "layer already in an earlier pack": 240152,
+    "second address form of a layer": 293504
+  },
+  "leftOutExcluded": 0,
+  "left_out_by_rule": [],
+  "sample_rows": 1000,
+  "focus_rows": 385317,
+  "arcgis_online_rows": 739487,
+  "subcategories": {},
+  "agent_formats": [
+    "json"
+  ],
+  "largestServices": [
+    {
+      "service": "ArcGIS organization 2yAm9dFr5Sk8XULx",
+      "display": "ArcGIS Online layers (services7.arcgis.com, org 2yAm9dFr5Sk8XULx)",
+      "host": "services7.arcgis.com",
+      "endpoints": 9876,
+      "agent_ready": 9876,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization P4xL2mHKYJn1aLHf",
+      "display": "ArcGIS Online layers (services5.arcgis.com, org P4xL2mHKYJn1aLHf)",
+      "host": "services5.arcgis.com",
+      "endpoints": 3755,
+      "agent_ready": 3755,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "The Nature Conservancy (ArcGIS Online)",
+      "display": "The Nature Conservancy (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 3303,
+      "agent_ready": 3303,
+      "in_focus": 3083,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization Laaqu2LACymfAn5i",
+      "display": "ArcGIS Online layers (services1.arcgis.com, org Laaqu2LACymfAn5i)",
+      "host": "services1.arcgis.com",
+      "endpoints": 3229,
+      "agent_ready": 3229,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "NOAA GeoPlatform (ArcGIS Online)",
+      "display": "NOAA GeoPlatform (ArcGIS Online)",
+      "host": "services2.arcgis.com",
+      "endpoints": 3045,
+      "agent_ready": 3045,
+      "in_focus": 2651,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Africa GeoPortal (ArcGIS Online)",
+      "display": "Africa GeoPortal (ArcGIS Online)",
+      "host": "services8.arcgis.com",
+      "endpoints": 2938,
+      "agent_ready": 2938,
+      "in_focus": 2888,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "FEMA AGOL (ArcGIS Online)",
+      "display": "FEMA AGOL (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 2706,
+      "agent_ready": 2706,
+      "in_focus": 2119,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Georgia Association of Regional Commissions (ArcGIS Online)",
+      "display": "Georgia Association of Regional Commissions (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 2703,
+      "agent_ready": 2703,
+      "in_focus": 2664,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS Online for Maryland (ArcGIS Online)",
+      "display": "ArcGIS Online for Maryland (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 2537,
+      "agent_ready": 2537,
+      "in_focus": 2457,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization I9cUOJUZvdGAJncI",
+      "display": "ArcGIS Online layers (services2.arcgis.com, org I9cUOJUZvdGAJncI)",
+      "host": "services2.arcgis.com",
+      "endpoints": 2522,
+      "agent_ready": 2522,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "HNTB GeoShare (ArcGIS Online)",
+      "display": "HNTB GeoShare (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 2457,
+      "agent_ready": 2457,
+      "in_focus": 2283,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization JWrCRn2sKoxC0XsM",
+      "display": "ArcGIS Online layers (services5.arcgis.com, org JWrCRn2sKoxC0XsM)",
+      "host": "services5.arcgis.com",
+      "endpoints": 2346,
+      "agent_ready": 2346,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "National Audubon Society (ArcGIS Online)",
+      "display": "National Audubon Society (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 2223,
+      "agent_ready": 2223,
+      "in_focus": 2183,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "HDR ArcGIS Online (ArcGIS Online)",
+      "display": "HDR ArcGIS Online (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 2137,
+      "agent_ready": 2137,
+      "in_focus": 2014,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "U.S. Forest Service (ArcGIS Online)",
+      "display": "U.S. Forest Service (ArcGIS Online)",
+      "host": "services1.arcgis.com",
+      "endpoints": 2115,
+      "agent_ready": 2115,
+      "in_focus": 1718,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Oregon ArcGIS Online (ArcGIS Online)",
+      "display": "Oregon ArcGIS Online (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 2089,
+      "agent_ready": 2089,
+      "in_focus": 1978,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "City of Washington, DC (ArcGIS Online)",
+      "display": "City of Washington, DC (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 2047,
+      "agent_ready": 2047,
+      "in_focus": 1975,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "County of Los Angeles (ArcGIS Online)",
+      "display": "County of Los Angeles (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 1896,
+      "agent_ready": 1896,
+      "in_focus": 1853,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization U37S3OTVbnXXjTBq",
+      "display": "ArcGIS Online layers (services2.arcgis.com, org U37S3OTVbnXXjTBq)",
+      "host": "services2.arcgis.com",
+      "endpoints": 1749,
+      "agent_ready": 1749,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Wild Bird Trust (ArcGIS Online)",
+      "display": "Wild Bird Trust (ArcGIS Online)",
+      "host": "services7.arcgis.com",
+      "endpoints": 1707,
+      "agent_ready": 1707,
+      "in_focus": 1702,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization jDGuO8tYggdCCnUJ",
+      "display": "ArcGIS Online layers (services.arcgis.com, org jDGuO8tYggdCCnUJ)",
+      "host": "services.arcgis.com",
+      "endpoints": 1694,
+      "agent_ready": 1694,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization 9pNClJ36UGcgthXy",
+      "display": "ArcGIS Online layers (services8.arcgis.com, org 9pNClJ36UGcgthXy)",
+      "host": "services8.arcgis.com",
+      "endpoints": 1616,
+      "agent_ready": 1616,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization ycIuRaoIC4UuCDAS",
+      "display": "ArcGIS Online layers (services.arcgis.com, org ycIuRaoIC4UuCDAS)",
+      "host": "services.arcgis.com",
+      "endpoints": 1592,
+      "agent_ready": 1592,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "GIS WebTech (ArcGIS Online)",
+      "display": "GIS WebTech (ArcGIS Online)",
+      "host": "services6.arcgis.com",
+      "endpoints": 1576,
+      "agent_ready": 1576,
+      "in_focus": 1507,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Hawaiʻi Statewide GIS Program (ArcGIS Online)",
+      "display": "Hawaiʻi Statewide GIS Program (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 1498,
+      "agent_ready": 1498,
+      "in_focus": 1372,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    }
+  ],
+  "bannerGroups": [
+    {
+      "label": "Navigation & Geo/Maps",
+      "n": 310789,
+      "agent": 310789
+    },
+    {
+      "label": "Government & Open Data",
+      "n": 245073,
+      "agent": 245073
+    },
+    {
+      "label": "Transport & Mobility",
+      "n": 56096,
+      "agent": 56096
+    },
+    {
+      "label": "Environment",
+      "n": 30809,
+      "agent": 30809
+    },
+    {
+      "label": "Hydrology & Oceans",
+      "n": 28895,
+      "agent": 28895
+    },
+    {
+      "label": "Health",
+      "n": 18441,
+      "agent": 18440
+    }
+  ],
+  "focus_text": "NOT title matches /(?<![a-z])(test|tests|testing|draft|drafts|copy|sample|samples|demo|untitled|scratch|temp|tmp|delete|deleteme|practice|dummy|example|training)(?![a-z])|final_final|\\d{7,}/i AND (NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i OR NOT service matches /^ArcGIS organization /i)",
+  "buckets": [
+    {
+      "id": "agent",
+      "emoji": "🤖",
+      "name": "Agent tools",
+      "title": "Keyless JSON layers and tables an agent can call (United States)",
+      "build": "Wrap one layer query as a get_layer_features tool: pass a where clause or a bounding box, return the matching features with a timeout.",
+      "filter": {
+        "tag": "agent-ready"
+      },
+      "filter_text": "tags has agent-ready",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 751069,
+          "text": "are map-layer queries that asked for a few records (`resultRecordCount`); add a where clause or a geometry to ask about one place, and page through for the whole layer."
+        }
+      ],
+      "count": 751069,
+      "services_matching": 23179,
+      "country_codes_matching": 1,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/%C3%81reas_Eco_Oro/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+        "title": "Áreas_Eco_Oro",
+        "service": "The Nature Conservancy (ArcGIS Online)",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and are tagged `agent-ready` (no key sent in the test call, JSON body, passed a data call). Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `url matches //query\\?/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 7818,
+        "services": [
+          {
+            "service": "The Nature Conservancy (ArcGIS Online)",
+            "display": "The Nature Conservancy (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 3303,
+            "endpoints_in_pack": 3303,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/%C3%81reas_Eco_Oro/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Áreas_Eco_Oro",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "NOAA GeoPlatform (ArcGIS Online)",
+            "display": "NOAA GeoPlatform (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 3045,
+            "endpoints_in_pack": 3045,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/0Z_850mbHeightsWinds/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "0Z_850mbHeightsWinds",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Africa GeoPortal (ArcGIS Online)",
+            "display": "Africa GeoPortal (ArcGIS Online)",
+            "host": "services8.arcgis.com",
+            "endpoints_in_bucket": 2938,
+            "endpoints_in_pack": 2938,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services8.arcgis.com/oTalEaSXAuyNT7xf/ArcGIS/rest/services/%C3%A9lectrique_saly/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "électrique_saly",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "FEMA AGOL (ArcGIS Online)",
+            "display": "FEMA AGOL (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 2706,
+            "endpoints_in_pack": 2706,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/XG15cJAlne2vxtgt/ArcGIS/rest/services/02_Structures_Display/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "02_Structures_Display",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Georgia Association of Regional Commissions (ArcGIS Online)",
+            "display": "Georgia Association of Regional Commissions (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 2703,
+            "endpoints_in_pack": 2703,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/ArcGIS/rest/services/2010_Census_Tracts_with_Disadvantaged_Communities_Data/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "2010_Census_Tracts_with_Disadvantaged_Communities_Data",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "ArcGIS Online for Maryland (ArcGIS Online)",
+            "display": "ArcGIS Online for Maryland (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 2537,
+            "endpoints_in_pack": 2537,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/12DigitPivotYearsData/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "12DigitPivotYearsData",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "HNTB GeoShare (ArcGIS Online)",
+            "display": "HNTB GeoShare (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 2457,
+            "endpoints_in_pack": 2457,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/rD2ylXRs80UroD90/ArcGIS/rest/services/1000_FT_Buffer_SR70_66/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "1000_FT_Buffer_SR70_66",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "National Audubon Society (ArcGIS Online)",
+            "display": "National Audubon Society (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 2223,
+            "endpoints_in_pack": 2223,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/lDFzr3JyGEn5Eymu/ArcGIS/rest/services/%C3%81reas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Áreas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "app",
+      "emoji": "📱",
+      "name": "App features",
+      "title": "Map layers to draw in an app (United States)",
+      "build": "Add the layers to an app map: read the layer once for its fields, then ask for the features in the visible area.",
+      "filter": {
+        "urlMatches": "/(Feature|Map)Server/"
+      },
+      "filter_text": "url matches //(Feature|Map)Server//i",
+      "fallback": false,
+      "notes": [],
+      "count": 751070,
+      "services_matching": 23179,
+      "country_codes_matching": 1,
+      "formats_matching": 2,
+      "example": {
+        "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/%C3%81reas_Eco_Oro/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+        "title": "Áreas_Eco_Oro",
+        "service": "The Nature Conservancy (ArcGIS Online)",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 7818,
+        "services": [
+          {
+            "service": "The Nature Conservancy (ArcGIS Online)",
+            "display": "The Nature Conservancy (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 3303,
+            "endpoints_in_pack": 3303,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/%C3%81reas_Eco_Oro/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Áreas_Eco_Oro",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "NOAA GeoPlatform (ArcGIS Online)",
+            "display": "NOAA GeoPlatform (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 3045,
+            "endpoints_in_pack": 3045,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/0Z_850mbHeightsWinds/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "0Z_850mbHeightsWinds",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Africa GeoPortal (ArcGIS Online)",
+            "display": "Africa GeoPortal (ArcGIS Online)",
+            "host": "services8.arcgis.com",
+            "endpoints_in_bucket": 2938,
+            "endpoints_in_pack": 2938,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services8.arcgis.com/oTalEaSXAuyNT7xf/ArcGIS/rest/services/%C3%A9lectrique_saly/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "électrique_saly",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "FEMA AGOL (ArcGIS Online)",
+            "display": "FEMA AGOL (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 2706,
+            "endpoints_in_pack": 2706,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/XG15cJAlne2vxtgt/ArcGIS/rest/services/02_Structures_Display/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "02_Structures_Display",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Georgia Association of Regional Commissions (ArcGIS Online)",
+            "display": "Georgia Association of Regional Commissions (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 2703,
+            "endpoints_in_pack": 2703,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/ArcGIS/rest/services/2010_Census_Tracts_with_Disadvantaged_Communities_Data/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "2010_Census_Tracts_with_Disadvantaged_Communities_Data",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "ArcGIS Online for Maryland (ArcGIS Online)",
+            "display": "ArcGIS Online for Maryland (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 2537,
+            "endpoints_in_pack": 2537,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/12DigitPivotYearsData/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "12DigitPivotYearsData",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "HNTB GeoShare (ArcGIS Online)",
+            "display": "HNTB GeoShare (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 2457,
+            "endpoints_in_pack": 2457,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/rD2ylXRs80UroD90/ArcGIS/rest/services/1000_FT_Buffer_SR70_66/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "1000_FT_Buffer_SR70_66",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "National Audubon Society (ArcGIS Online)",
+            "display": "National Audubon Society (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 2223,
+            "endpoints_in_pack": 2223,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/lDFzr3JyGEn5Eymu/ArcGIS/rest/services/%C3%81reas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Áreas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grounding",
+      "emoji": "🧠",
+      "name": "Grounding and data pipelines",
+      "title": "Statistics, boundaries, parcels and inventories for scheduled loads (United States)",
+      "build": "Load the tables and layers on a schedule into your own store, so an agent can cite a dated source.",
+      "filter": {
+        "or": [
+          {
+            "format": [
+              "csv",
+              "xml",
+              "geojson"
+            ]
+          },
+          {
+            "titleMatches": "statist|census|population|boundar|parcel|zoning|district|budget|election|crash|permit|inventory|land ?use|landuse|cadast|address"
+          }
+        ]
+      },
+      "filter_text": "format in (csv, xml, geojson) OR title matches /statist|census|population|boundar|parcel|zoning|district|budget|election|crash|permit|inventory|land ?use|landuse|cadast|address/i",
+      "fallback": false,
+      "notes": [],
+      "count": 80338,
+      "services_matching": 11110,
+      "country_codes_matching": 1,
+      "formats_matching": 2,
+      "example": {
+        "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/ArcGIS/rest/services/2010_Census_Tracts_with_Disadvantaged_Communities_Data/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+        "title": "2010_Census_Tracts_with_Disadvantaged_Communities_Data",
+        "service": "Georgia Association of Regional Commissions (ArcGIS Online)",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 4963,
+        "services": [
+          {
+            "service": "Georgia Association of Regional Commissions (ArcGIS Online)",
+            "display": "Georgia Association of Regional Commissions (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 458,
+            "endpoints_in_pack": 2703,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/ArcGIS/rest/services/2010_Census_Tracts_with_Disadvantaged_Communities_Data/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "2010_Census_Tracts_with_Disadvantaged_Communities_Data",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Office for National Statistics (ArcGIS Online)",
+            "display": "Office for National Statistics (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 396,
+            "endpoints_in_pack": 676,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/BUA11_LAD11_EW_LU_ccfff9f71c3c48b9b49ecc9d0e79c8c8/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "Built-up Area (2011) to Local Authority District (December 2011) Lookup in EW",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Esri (ArcGIS Online)",
+            "display": "Esri (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 388,
+            "endpoints_in_pack": 681,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/ACS_10_14_Children_in_Grandparent_Households_Boundaries/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ACS_10_14_Children_in_Grandparent_Households_Boundaries",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "GIS WebTech (ArcGIS Online)",
+            "display": "GIS WebTech (ArcGIS Online)",
+            "host": "services6.arcgis.com",
+            "endpoints_in_bucket": 377,
+            "endpoints_in_pack": 1576,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services6.arcgis.com/BAJNi3EgCdtQ1BCG/ArcGIS/rest/services/1125%20Weems%20St%20Parcel_62Property%20Outline%20Publish-62%20271/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "1125 Weems St Parcel_62Property Outline Publish-62 271",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "HNTB GeoShare (ArcGIS Online)",
+            "display": "HNTB GeoShare (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 270,
+            "endpoints_in_pack": 2457,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/rD2ylXRs80UroD90/ArcGIS/rest/services/2020_Census_Texas_Smooth_MPO_UA_Boundaries/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "2020_Census_Texas_Smooth_MPO_UA_Boundaries",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "County of Los Angeles (ArcGIS Online)",
+            "display": "County of Los Angeles (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 262,
+            "endpoints_in_pack": 1896,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/RmCCgQtiZLDCtblq/ArcGIS/rest/services/2020_Census_Designated_Places_WFL1/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "2020_Census_Designated_Places_WFL1",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "HDR ArcGIS Online (ArcGIS Online)",
+            "display": "HDR ArcGIS Online (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 233,
+            "endpoints_in_pack": 2137,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/04HiymDgLlsbhaV4/ArcGIS/rest/services/AGOL_I10Parcels_CA/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "AGOL_I10Parcels_CA",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "ArcGIS Online for Maryland (ArcGIS Online)",
+            "display": "ArcGIS Online for Maryland (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 226,
+            "endpoints_in_pack": 2537,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/2022_General_Election_Voting_Sites_WFL1/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "2022_General_Election_Voting_Sites_WFL1",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evals",
+      "emoji": "🧪",
+      "name": "Evals and testing",
+      "title": "Varied responses to test tool calls and parsers",
+      "build": "Run your tool calls against a fixed set of URLs across formats and record which answer; last_tested is the baseline for your own re-tests.",
+      "filter": {
+        "whole": true
+      },
+      "filter_text": "the whole pack",
+      "fallback": false,
+      "notes": [],
+      "count": 751070,
+      "services_matching": 23179,
+      "country_codes_matching": 1,
+      "formats_matching": 2,
+      "example": {
+        "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/%C3%81reas_Eco_Oro/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+        "title": "Áreas_Eco_Oro",
+        "service": "The Nature Conservancy (ArcGIS Online)",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack that returned the most different formats, then the most endpoints that passed a data call, then by name: a mix of response shapes to test parsers and tool calls. Here the services returned 1 format each, so the order comes down to endpoint counts. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 7818,
+        "services": [
+          {
+            "service": "The Nature Conservancy (ArcGIS Online)",
+            "display": "The Nature Conservancy (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 3303,
+            "endpoints_in_pack": 3303,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/%C3%81reas_Eco_Oro/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Áreas_Eco_Oro",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "NOAA GeoPlatform (ArcGIS Online)",
+            "display": "NOAA GeoPlatform (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 3045,
+            "endpoints_in_pack": 3045,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/0Z_850mbHeightsWinds/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "0Z_850mbHeightsWinds",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Africa GeoPortal (ArcGIS Online)",
+            "display": "Africa GeoPortal (ArcGIS Online)",
+            "host": "services8.arcgis.com",
+            "endpoints_in_bucket": 2938,
+            "endpoints_in_pack": 2938,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services8.arcgis.com/oTalEaSXAuyNT7xf/ArcGIS/rest/services/%C3%A9lectrique_saly/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "électrique_saly",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "FEMA AGOL (ArcGIS Online)",
+            "display": "FEMA AGOL (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 2706,
+            "endpoints_in_pack": 2706,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/XG15cJAlne2vxtgt/ArcGIS/rest/services/02_Structures_Display/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "02_Structures_Display",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Georgia Association of Regional Commissions (ArcGIS Online)",
+            "display": "Georgia Association of Regional Commissions (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 2703,
+            "endpoints_in_pack": 2703,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/ArcGIS/rest/services/2010_Census_Tracts_with_Disadvantaged_Communities_Data/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "2010_Census_Tracts_with_Disadvantaged_Communities_Data",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "ArcGIS Online for Maryland (ArcGIS Online)",
+            "display": "ArcGIS Online for Maryland (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 2537,
+            "endpoints_in_pack": 2537,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/12DigitPivotYearsData/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "12DigitPivotYearsData",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "HNTB GeoShare (ArcGIS Online)",
+            "display": "HNTB GeoShare (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 2457,
+            "endpoints_in_pack": 2457,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/rD2ylXRs80UroD90/ArcGIS/rest/services/1000_FT_Buffer_SR70_66/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "1000_FT_Buffer_SR70_66",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "National Audubon Society (ArcGIS Online)",
+            "display": "National Audubon Society (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 2223,
+            "endpoints_in_pack": 2223,
+            "country_codes": [
+              "US"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/lDFzr3JyGEn5Eymu/ArcGIS/rest/services/%C3%81reas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Áreas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "q": "Which conservation and habitat layers does The Nature Conservancy publish?",
+      "filter": "url matches /F7DSX1DSNSiWmOqh/arcgis/rest/services//i",
+      "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/%C3%81reas_Eco_Oro/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+      "title": "Áreas_Eco_Oro",
+      "service": "The Nature Conservancy (ArcGIS Online)",
+      "last_tested": "2026-11-16",
+      "matching": 3303
+    },
+    {
+      "q": "Which Maryland layers can an agent query on ArcGIS Online for Maryland?",
+      "filter": "url matches /njFNhDsUCentVYJW/arcgis/rest/services//i",
+      "url": "https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/12DigitPivotYearsData/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+      "title": "12DigitPivotYearsData",
+      "service": "ArcGIS Online for Maryland (ArcGIS Online)",
+      "last_tested": "2026-11-16",
+      "matching": 2537
+    },
+    {
+      "q": "Which regional layers do the Georgia regional commissions publish?",
+      "filter": "url matches /Ug5xGQbHsD8zuZzM/arcgis/rest/services//i",
+      "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/ArcGIS/rest/services/2010_Census_Tracts_with_Disadvantaged_Communities_Data/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+      "title": "2010_Census_Tracts_with_Disadvantaged_Communities_Data",
+      "service": "Georgia Association of Regional Commissions (ArcGIS Online)",
+      "last_tested": "2026-11-16",
+      "matching": 2703
+    },
+    {
+      "q": "Which bird and habitat layers does the National Audubon Society publish?",
+      "filter": "url matches /lDFzr3JyGEn5Eymu/arcgis/rest/services//i",
+      "url": "https://services1.arcgis.com/lDFzr3JyGEn5Eymu/ArcGIS/rest/services/%C3%81reas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+      "title": "Áreas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru",
+      "service": "National Audubon Society (ArcGIS Online)",
+      "last_tested": "2026-11-16",
+      "matching": 2223
+    }
+  ],
+  "preview_focused": true,
+  "preview": [
+    {
+      "title": "Áreas_Eco_Oro",
+      "service": "The Nature Conservancy (ArcGIS Online)",
+      "country": "US",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services.arcgis.com",
+      "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/%C3%81reas_Eco_Oro/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "électrique_saly",
+      "service": "Africa GeoPortal (ArcGIS Online)",
+      "country": "US",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services8.arcgis.com",
+      "url": "https://services8.arcgis.com/oTalEaSXAuyNT7xf/ArcGIS/rest/services/%C3%A9lectrique_saly/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "2010_Census_Tracts_with_Disadvantaged_Communities_Data",
+      "service": "Georgia Association of Regional Commissions (ArcGIS Online)",
+      "country": "US",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services1.arcgis.com",
+      "url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/ArcGIS/rest/services/2010_Census_Tracts_with_Disadvantaged_Communities_Data/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "0Z_850mbHeightsWinds",
+      "service": "NOAA GeoPlatform (ArcGIS Online)",
+      "country": "US",
+      "category": "Energy",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services2.arcgis.com",
+      "url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/0Z_850mbHeightsWinds/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "12DigitPivotYearsData",
+      "service": "ArcGIS Online for Maryland (ArcGIS Online)",
+      "country": "US",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services.arcgis.com",
+      "url": "https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/12DigitPivotYearsData/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    }
+  ],
+  "limits": [
+    {
+      "id": "record-count",
+      "text": "751,070 rows are map-layer queries with resultRecordCount set: the tested call asked for a few records; change the query to get the full layer."
+    },
+    {
+      "id": "pack",
+      "text": "739,487 rows are layers on ArcGIS Online, where anyone can publish: some are class projects, tests or copies. Check the owner and the fields before you rely on one. Only layers of organisations with a name of their own, whose titles do not read as a test, draft or copy, are used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "36,625 rows have a title that reads as a test, a draft, a copy or a sample; they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "The country code (US) is the code the endpoint is filed under, not the place the data covers and not always the publisher's country. Where a row had no code, the code of its ArcGIS organisation is used when that organisation lists one country only. In a sample of 40 titles read before release, about 6 were about a place outside the United States. Filter by title or service if you need data about one place."
+    },
+    {
+      "id": "quiet",
+      "text": "Stations and feeds can go quiet after their test date; re-test a URL before you rely on it."
+    },
+    {
+      "id": "not-in",
+      "text": "Not in this pack: endpoints that need a key or a POST, and URLs that did not pass."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 1,036 rows with an email-like address."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 13,687 ArcGIS Survey123 layers (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 358 class-exercise copies of the same few ArcGIS Online layers (Miami Beach sea level rise, high-risk areas without shelter, flooded areas, sea level rise and storm surge maps) across many organisations, many with a person's name in the title."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 802 layers marked editable in the title (they can hold entries that people added)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 97 police traffic-stop layers (they can hold details of people stopped)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 2,034 ArcGIS layers that keep a form's default service name (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 3 rows whose address or title held a token-like string, a private address or a similar string."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 97,699 ArcGIS class or coursework layers (lab, assignment, exam, quiz, lesson, exercise, tutorial and final-project layers, copies of class layers, layers named for a person or a person's home, and layers whose name ends in a person's name or holds a student number)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 7,760 ArcGIS layers that hold reports, comments, submissions or form responses sent in by the public."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 5,405 ArcGIS layers that are records about named people (employee, patient, client or donor lists, home addresses, voter lists, sex offender and missing person layers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 839 rows that are another address of an ArcGIS layer dropped for what it holds (one of the reasons above, found under another address of the layer)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 9,901 rows of ArcGIS Online organisations that are class accounts (25 layers or more, at least 50% of them class or coursework layers): their other layers are students' work too."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 153,426 rows of ArcGIS Online organisations that are class accounts (3 class sets or more in at least 20% of their rows, 10 class sets or more with no organisation name, or layers signed by students read by hand): their other layers are students' work too."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 35,772 rows of class sets: one map layer saved under 5 or more students' initials or names in one ArcGIS Online organisation, or in 4 or more students' own organisations."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 377,724 rows of university, college and school organisations and hosts (many of their layers are students' work)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 1,613 rows whose address is already in an earlier pack of the collection."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 240,152 rows that are another address form of an ArcGIS layer already in an earlier pack of the collection (the same rows under another query)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 293,504 rows that are a second address form of an ArcGIS layer in this list (the same rows under another query); one address is kept per layer, the newest test first."
+    }
+  ],
+  "name": "750k-united-states-apis-for-agents",
+  "services_tested": null,
+  "services_file_rows": 23179,
+  "sample_mix": [
+    {
+      "source": "ArcGIS Online layers",
+      "focus_rows": 373958,
+      "sample_rows": 500
+    },
+    {
+      "source": "Doe (prod.arcgis.netl.doe.gov)",
+      "focus_rows": 1332,
+      "sample_rows": 4
+    },
+    {
+      "source": "Noaa (imagery.coast.noaa.gov)",
+      "focus_rows": 222,
+      "sample_rows": 2
+    },
+    {
+      "source": "Noaa (maps1.coast.noaa.gov)",
+      "focus_rows": 222,
+      "sample_rows": 2
+    },
+    {
+      "source": "Noaa (maps2.coast.noaa.gov)",
+      "focus_rows": 220,
+      "sample_rows": 2
+    },
+    {
+      "source": "Thorntonco (maps.thorntonco.gov)",
+      "focus_rows": 170,
+      "sample_rows": 2
+    },
+    {
+      "source": "Codot (maps.codot.gov)",
+      "focus_rows": 156,
+      "sample_rows": 2
+    },
+    {
+      "source": "Boonecountygis (secure.boonecountygis.com)",
+      "focus_rows": 153,
+      "sample_rows": 2
+    },
+    {
+      "source": "gis.ecology.wa.gov",
+      "focus_rows": 152,
+      "sample_rows": 2
+    },
+    {
+      "source": "Cityofredlands (gis.cityofredlands.org)",
+      "focus_rows": 131,
+      "sample_rows": 2
+    }
+  ],
+  "sample_focus_rows": 385317,
+  "sample_rule": "1,000 rows, or one third of the pack rounded down, whichever is smaller",
+  "files": [
+    {
+      "name": "data/United_States_API_Services_AgentPopulation.csv",
+      "rows": 23179,
+      "bytes": 1486530,
+      "sha256": "2ce114772faa3ed99bfd3f9ea5fa8c23624e94c0073e97ef07ccc8726dcb0a2b"
+    },
+    {
+      "name": "data/United_States_API_Endpoints_AgentPopulation_Sample.csv",
+      "rows": 1000,
+      "bytes": 295242,
+      "sha256": "6ffa12894f685899512a4090cc0e836b509bf5470fefebb8fc17929ee408503e"
+    },
+    {
+      "name": "data/United_States_API_Endpoints_AgentPopulation_Sample.json",
+      "rows": 1000,
+      "bytes": 478067,
+      "sha256": "9c3769a5b962aa4de5e356ec824f3bf03d4976aea54793ac92a98774b92835db"
+    }
+  ],
+  "release_asset": {
+    "name": "United_States_API_Endpoints_AgentPopulation_Snapshot_2026-11-16.csv.gz",
+    "rows": 751070,
+    "bytes": 14914735,
+    "raw_bytes": 246900611,
+    "sha256": "fb0cc1010b33f50f16d687c27b79e3471ab7b119e7936b0ddd5f915223156739",
+    "url": "https://github.com/agentpopulation/750k-united-states-apis-for-agents/releases/latest/download/United_States_API_Endpoints_AgentPopulation_Snapshot_2026-11-16.csv.gz"
+  },
+  "release_tag": "snapshot-2026-11-16",
+  "overlaps": [
+    {
+      "repo": "weather-api-endpoints",
+      "name": "170k-weather-apis-for-agents",
+      "title": "Weather API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "transit-api-endpoints",
+      "name": "240k-transit-apis-for-agents",
+      "title": "Transit API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "water-api-endpoints",
+      "name": "260k-water-apis-for-agents",
+      "title": "Rivers and water API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "finance-economy-api-endpoints",
+      "name": "120k-finance-economy-apis-for-agents",
+      "title": "Finance and economy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "india-api-endpoints",
+      "name": "130k-india-apis-for-agents",
+      "title": "India API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "government-open-data-api-endpoints",
+      "name": "1.2m-government-open-data-apis",
+      "title": "Government open data API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "statistics-api-endpoints",
+      "name": "270k-statistics-apis-for-agents",
+      "title": "Statistics and census API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "oceans-api-endpoints",
+      "name": "84k-oceans-apis-for-agents",
+      "title": "Ocean and marine API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "maritime-api-endpoints",
+      "name": "22k-maritime-apis-for-agents",
+      "title": "Maritime API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "environment-api-endpoints",
+      "name": "160k-environment-apis-for-agents",
+      "title": "Environment API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "air-quality-api-endpoints",
+      "name": "19k-air-quality-apis-for-agents",
+      "title": "Air quality API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "maps-gis-api-endpoints",
+      "name": "350k-maps-gis-apis-for-agents",
+      "title": "Maps and GIS API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "agent-ready-api-endpoints",
+      "name": "2.2m-agent-ready-apis",
+      "title": "Agent-ready API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "health-api-endpoints",
+      "name": "84k-health-apis-for-agents",
+      "title": "Health API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "science-api-endpoints",
+      "name": "380k-science-apis-for-agents",
+      "title": "Science API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "hazards-api-endpoints",
+      "name": "40k-hazards-apis-for-agents",
+      "title": "Hazards and alerts API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "wildfire-api-endpoints",
+      "name": "4.9k-wildfire-apis-for-agents",
+      "title": "Wildfire API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "energy-api-endpoints",
+      "name": "67k-energy-apis-for-agents",
+      "title": "Energy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "aviation-api-endpoints",
+      "name": "23k-aviation-apis-for-agents",
+      "title": "Aviation API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "traffic-api-endpoints",
+      "name": "22k-traffic-apis-for-agents",
+      "title": "Traffic and roadworks API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "parking-api-endpoints",
+      "name": "10k-parking-apis-for-agents",
+      "title": "Parking API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "earthquake-api-endpoints",
+      "name": "7.8k-earthquake-apis-for-agents",
+      "title": "Earthquake API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "volcano-tsunami-api-endpoints",
+      "name": "4.2k-volcano-tsunami-apis-for-agents",
+      "title": "Volcano and tsunami API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "bike-share-api-endpoints",
+      "name": "17k-bike-share-apis-for-agents",
+      "title": "Bike-share API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "united-kingdom-api-endpoints",
+      "name": "52k-united-kingdom-apis-for-agents",
+      "title": "United Kingdom API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "france-api-endpoints",
+      "name": "47k-france-apis-for-agents",
+      "title": "France API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "spain-api-endpoints",
+      "name": "8.1k-spain-apis-for-agents",
+      "title": "Spain API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "indonesia-api-endpoints",
+      "name": "22k-indonesia-apis-for-agents",
+      "title": "Indonesia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "canada-api-endpoints",
+      "name": "19k-canada-apis-for-agents",
+      "title": "Canada API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "netherlands-api-endpoints",
+      "name": "17k-netherlands-apis-for-agents",
+      "title": "Netherlands API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "germany-api-endpoints",
+      "name": "14k-germany-apis-for-agents",
+      "title": "Germany API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "norway-api-endpoints",
+      "name": "12k-norway-apis-for-agents",
+      "title": "Norway API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "brazil-api-endpoints",
+      "name": "14k-brazil-apis-for-agents",
+      "title": "Brazil API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "japan-api-endpoints",
+      "name": "9.8k-japan-apis-for-agents",
+      "title": "Japan API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "australia-api-endpoints",
+      "name": "12k-australia-apis-for-agents",
+      "title": "Australia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "colombia-api-endpoints",
+      "name": "10k-colombia-apis-for-agents",
+      "title": "Colombia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "czechia-api-endpoints",
+      "name": "6.3k-czechia-apis-for-agents",
+      "title": "Czechia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "poland-api-endpoints",
+      "name": "6.3k-poland-apis-for-agents",
+      "title": "Poland API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "taiwan-api-endpoints",
+      "name": "4.2k-taiwan-apis-for-agents",
+      "title": "Taiwan API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "italy-api-endpoints",
+      "name": "7.3k-italy-apis-for-agents",
+      "title": "Italy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "new-zealand-api-endpoints",
+      "name": "6.1k-new-zealand-apis-for-agents",
+      "title": "New Zealand API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "nordic-api-endpoints",
+      "name": "13k-nordic-apis-for-agents",
+      "title": "Nordic API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "more-europe-api-endpoints",
+      "name": "24k-more-europe-apis-for-agents",
+      "title": "More Europe API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "latin-america-caribbean-api-endpoints",
+      "name": "20k-latin-america-caribbean-apis-for-agents",
+      "title": "Latin America and Caribbean API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "europe-region-arcgis-api-endpoints",
+      "name": "59k-europe-region-arcgis-apis-for-agents",
+      "title": "Europe-region ArcGIS API endpoints",
+      "shared": 5907
+    },
+    {
+      "repo": "middle-east-africa-api-endpoints",
+      "name": "6.7k-middle-east-africa-apis-for-agents",
+      "title": "Middle East and Africa API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "county-and-city-gis-api-endpoints",
+      "name": "160k-county-and-city-gis-apis-for-agents",
+      "title": "County and city GIS API endpoints",
+      "shared": 138206
+    },
+    {
+      "repo": "public-agency-gis-api-endpoints",
+      "name": "47k-public-agency-gis-apis-for-agents",
+      "title": "Public agency GIS API endpoints",
+      "shared": 40279
+    },
+    {
+      "repo": "arcgis-server-api-endpoints",
+      "name": "25k-arcgis-server-apis-for-agents",
+      "title": "ArcGIS Server API endpoints",
+      "shared": 11583
+    }
+  ],
+  "pack_count": 50,
+  "description": "751,070 API endpoints filed under country code US that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "readme_ap_share": 0.084,
+  "country_counts": {
+    "US": 751070
+  }
+}

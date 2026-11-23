@@ -1,0 +1,637 @@
+{
+  "pack": "750k-united-states-apis-for-agents",
+  "title": "United States API endpoints",
+  "snapshot": "2026-11-16",
+  "tested": {
+    "min": "2026-11-16",
+    "max": "2026-11-17",
+    "text": "16–17 Nov 2026"
+  },
+  "note": "On the date in last_tested (IST), one GET to the URL, sent with no key, returned HTTP 2xx and a non-empty data body. HTML pages and empty results did not pass. The format column records what came back. This is a test result for that date, not a promise that the URL answers today. Licences, terms, rate limits, accuracy and freshness were not reviewed. Endpoints are URLs, not separate APIs; many share one service.",
+  "licence": "CC BY 4.0: credit AgentPopulation and link https://agentpopulation.com",
+  "focus": "NOT title matches /(?<![a-z])(test|tests|testing|draft|drafts|copy|sample|samples|demo|untitled|scratch|temp|tmp|delete|deleteme|practice|dummy|example|training)(?![a-z])|final_final|\\d{7,}/i AND (NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i OR NOT service matches /^ArcGIS organization /i)",
+  "buckets": [
+    {
+      "id": "agent",
+      "name": "Agent tools",
+      "title": "Keyless JSON layers and tables an agent can call (United States)",
+      "filter": "tags has agent-ready",
+      "endpoints": 751069,
+      "notes": [
+        "751069 of these are map-layer queries that asked for a few records (resultRecordCount); add a where clause or a geometry to ask about one place, and page through for the whole layer."
+      ],
+      "criteria": "Services in this pack with the most endpoints that match this bucket and are tagged agent-ready (no key sent in the test call, JSON body, passed a data call). Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: url matches //query\\?/i. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+      "services": [
+        {
+          "service": "The Nature Conservancy (ArcGIS Online)",
+          "display": "The Nature Conservancy (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 3303,
+          "endpoints_in_pack": 3303,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/%C3%81reas_Eco_Oro/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "Áreas_Eco_Oro",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "NOAA GeoPlatform (ArcGIS Online)",
+          "display": "NOAA GeoPlatform (ArcGIS Online)",
+          "host": "services2.arcgis.com",
+          "endpoints_in_bucket": 3045,
+          "endpoints_in_pack": 3045,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/0Z_850mbHeightsWinds/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "0Z_850mbHeightsWinds",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "Africa GeoPortal (ArcGIS Online)",
+          "display": "Africa GeoPortal (ArcGIS Online)",
+          "host": "services8.arcgis.com",
+          "endpoints_in_bucket": 2938,
+          "endpoints_in_pack": 2938,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services8.arcgis.com/oTalEaSXAuyNT7xf/ArcGIS/rest/services/%C3%A9lectrique_saly/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "électrique_saly",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "FEMA AGOL (ArcGIS Online)",
+          "display": "FEMA AGOL (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 2706,
+          "endpoints_in_pack": 2706,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/XG15cJAlne2vxtgt/ArcGIS/rest/services/02_Structures_Display/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "02_Structures_Display",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "Georgia Association of Regional Commissions (ArcGIS Online)",
+          "display": "Georgia Association of Regional Commissions (ArcGIS Online)",
+          "host": "services1.arcgis.com",
+          "endpoints_in_bucket": 2703,
+          "endpoints_in_pack": 2703,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/ArcGIS/rest/services/2010_Census_Tracts_with_Disadvantaged_Communities_Data/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "2010_Census_Tracts_with_Disadvantaged_Communities_Data",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "ArcGIS Online for Maryland (ArcGIS Online)",
+          "display": "ArcGIS Online for Maryland (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 2537,
+          "endpoints_in_pack": 2537,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/12DigitPivotYearsData/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "12DigitPivotYearsData",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "HNTB GeoShare (ArcGIS Online)",
+          "display": "HNTB GeoShare (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 2457,
+          "endpoints_in_pack": 2457,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/rD2ylXRs80UroD90/ArcGIS/rest/services/1000_FT_Buffer_SR70_66/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "1000_FT_Buffer_SR70_66",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "National Audubon Society (ArcGIS Online)",
+          "display": "National Audubon Society (ArcGIS Online)",
+          "host": "services1.arcgis.com",
+          "endpoints_in_bucket": 2223,
+          "endpoints_in_pack": 2223,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services1.arcgis.com/lDFzr3JyGEn5Eymu/ArcGIS/rest/services/%C3%81reas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "Áreas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "app",
+      "name": "App features",
+      "title": "Map layers to draw in an app (United States)",
+      "filter": "url matches //(Feature|Map)Server//i",
+      "endpoints": 751070,
+      "notes": [],
+      "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+      "services": [
+        {
+          "service": "The Nature Conservancy (ArcGIS Online)",
+          "display": "The Nature Conservancy (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 3303,
+          "endpoints_in_pack": 3303,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/%C3%81reas_Eco_Oro/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "Áreas_Eco_Oro",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "NOAA GeoPlatform (ArcGIS Online)",
+          "display": "NOAA GeoPlatform (ArcGIS Online)",
+          "host": "services2.arcgis.com",
+          "endpoints_in_bucket": 3045,
+          "endpoints_in_pack": 3045,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/0Z_850mbHeightsWinds/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "0Z_850mbHeightsWinds",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "Africa GeoPortal (ArcGIS Online)",
+          "display": "Africa GeoPortal (ArcGIS Online)",
+          "host": "services8.arcgis.com",
+          "endpoints_in_bucket": 2938,
+          "endpoints_in_pack": 2938,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services8.arcgis.com/oTalEaSXAuyNT7xf/ArcGIS/rest/services/%C3%A9lectrique_saly/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "électrique_saly",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "FEMA AGOL (ArcGIS Online)",
+          "display": "FEMA AGOL (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 2706,
+          "endpoints_in_pack": 2706,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/XG15cJAlne2vxtgt/ArcGIS/rest/services/02_Structures_Display/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "02_Structures_Display",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "Georgia Association of Regional Commissions (ArcGIS Online)",
+          "display": "Georgia Association of Regional Commissions (ArcGIS Online)",
+          "host": "services1.arcgis.com",
+          "endpoints_in_bucket": 2703,
+          "endpoints_in_pack": 2703,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/ArcGIS/rest/services/2010_Census_Tracts_with_Disadvantaged_Communities_Data/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "2010_Census_Tracts_with_Disadvantaged_Communities_Data",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "ArcGIS Online for Maryland (ArcGIS Online)",
+          "display": "ArcGIS Online for Maryland (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 2537,
+          "endpoints_in_pack": 2537,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/12DigitPivotYearsData/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "12DigitPivotYearsData",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "HNTB GeoShare (ArcGIS Online)",
+          "display": "HNTB GeoShare (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 2457,
+          "endpoints_in_pack": 2457,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/rD2ylXRs80UroD90/ArcGIS/rest/services/1000_FT_Buffer_SR70_66/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "1000_FT_Buffer_SR70_66",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "National Audubon Society (ArcGIS Online)",
+          "display": "National Audubon Society (ArcGIS Online)",
+          "host": "services1.arcgis.com",
+          "endpoints_in_bucket": 2223,
+          "endpoints_in_pack": 2223,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services1.arcgis.com/lDFzr3JyGEn5Eymu/ArcGIS/rest/services/%C3%81reas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "Áreas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "grounding",
+      "name": "Grounding and data pipelines",
+      "title": "Statistics, boundaries, parcels and inventories for scheduled loads (United States)",
+      "filter": "format in (csv, xml, geojson) OR title matches /statist|census|population|boundar|parcel|zoning|district|budget|election|crash|permit|inventory|land ?use|landuse|cadast|address/i",
+      "endpoints": 80338,
+      "notes": [],
+      "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+      "services": [
+        {
+          "service": "Georgia Association of Regional Commissions (ArcGIS Online)",
+          "display": "Georgia Association of Regional Commissions (ArcGIS Online)",
+          "host": "services1.arcgis.com",
+          "endpoints_in_bucket": 458,
+          "endpoints_in_pack": 2703,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/ArcGIS/rest/services/2010_Census_Tracts_with_Disadvantaged_Communities_Data/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "2010_Census_Tracts_with_Disadvantaged_Communities_Data",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "Office for National Statistics (ArcGIS Online)",
+          "display": "Office for National Statistics (ArcGIS Online)",
+          "host": "services1.arcgis.com",
+          "endpoints_in_bucket": 396,
+          "endpoints_in_pack": 676,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/BUA11_LAD11_EW_LU_ccfff9f71c3c48b9b49ecc9d0e79c8c8/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+          "sample_title": "Built-up Area (2011) to Local Authority District (December 2011) Lookup in EW",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "Esri (ArcGIS Online)",
+          "display": "Esri (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 388,
+          "endpoints_in_pack": 681,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/P3ePLMYs2RVChkJx/ArcGIS/rest/services/ACS_10_14_Children_in_Grandparent_Households_Boundaries/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "ACS_10_14_Children_in_Grandparent_Households_Boundaries",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "GIS WebTech (ArcGIS Online)",
+          "display": "GIS WebTech (ArcGIS Online)",
+          "host": "services6.arcgis.com",
+          "endpoints_in_bucket": 377,
+          "endpoints_in_pack": 1576,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services6.arcgis.com/BAJNi3EgCdtQ1BCG/ArcGIS/rest/services/1125%20Weems%20St%20Parcel_62Property%20Outline%20Publish-62%20271/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "1125 Weems St Parcel_62Property Outline Publish-62 271",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "HNTB GeoShare (ArcGIS Online)",
+          "display": "HNTB GeoShare (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 270,
+          "endpoints_in_pack": 2457,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/rD2ylXRs80UroD90/ArcGIS/rest/services/2020_Census_Texas_Smooth_MPO_UA_Boundaries/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "2020_Census_Texas_Smooth_MPO_UA_Boundaries",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "County of Los Angeles (ArcGIS Online)",
+          "display": "County of Los Angeles (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 262,
+          "endpoints_in_pack": 1896,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/RmCCgQtiZLDCtblq/ArcGIS/rest/services/2020_Census_Designated_Places_WFL1/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "2020_Census_Designated_Places_WFL1",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "HDR ArcGIS Online (ArcGIS Online)",
+          "display": "HDR ArcGIS Online (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 233,
+          "endpoints_in_pack": 2137,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/04HiymDgLlsbhaV4/ArcGIS/rest/services/AGOL_I10Parcels_CA/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "AGOL_I10Parcels_CA",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "ArcGIS Online for Maryland (ArcGIS Online)",
+          "display": "ArcGIS Online for Maryland (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 226,
+          "endpoints_in_pack": 2537,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/2022_General_Election_Voting_Sites_WFL1/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "2022_General_Election_Voting_Sites_WFL1",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "name": "Evals and testing",
+      "title": "Varied responses to test tool calls and parsers",
+      "filter": "the whole pack",
+      "endpoints": 751070,
+      "notes": [],
+      "criteria": "Services in this pack that returned the most different formats, then the most endpoints that passed a data call, then by name: a mix of response shapes to test parsers and tool calls. Here the services returned 1 format each, so the order comes down to endpoint counts. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+      "services": [
+        {
+          "service": "The Nature Conservancy (ArcGIS Online)",
+          "display": "The Nature Conservancy (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 3303,
+          "endpoints_in_pack": 3303,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/%C3%81reas_Eco_Oro/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "Áreas_Eco_Oro",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "NOAA GeoPlatform (ArcGIS Online)",
+          "display": "NOAA GeoPlatform (ArcGIS Online)",
+          "host": "services2.arcgis.com",
+          "endpoints_in_bucket": 3045,
+          "endpoints_in_pack": 3045,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services2.arcgis.com/C8EMgrsFcRFL6LrL/ArcGIS/rest/services/0Z_850mbHeightsWinds/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "0Z_850mbHeightsWinds",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "Africa GeoPortal (ArcGIS Online)",
+          "display": "Africa GeoPortal (ArcGIS Online)",
+          "host": "services8.arcgis.com",
+          "endpoints_in_bucket": 2938,
+          "endpoints_in_pack": 2938,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services8.arcgis.com/oTalEaSXAuyNT7xf/ArcGIS/rest/services/%C3%A9lectrique_saly/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "électrique_saly",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "FEMA AGOL (ArcGIS Online)",
+          "display": "FEMA AGOL (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 2706,
+          "endpoints_in_pack": 2706,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/XG15cJAlne2vxtgt/ArcGIS/rest/services/02_Structures_Display/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "02_Structures_Display",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "Georgia Association of Regional Commissions (ArcGIS Online)",
+          "display": "Georgia Association of Regional Commissions (ArcGIS Online)",
+          "host": "services1.arcgis.com",
+          "endpoints_in_bucket": 2703,
+          "endpoints_in_pack": 2703,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services1.arcgis.com/Ug5xGQbHsD8zuZzM/ArcGIS/rest/services/2010_Census_Tracts_with_Disadvantaged_Communities_Data/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "2010_Census_Tracts_with_Disadvantaged_Communities_Data",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "ArcGIS Online for Maryland (ArcGIS Online)",
+          "display": "ArcGIS Online for Maryland (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 2537,
+          "endpoints_in_pack": 2537,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/njFNhDsUCentVYJW/ArcGIS/rest/services/12DigitPivotYearsData/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "12DigitPivotYearsData",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "HNTB GeoShare (ArcGIS Online)",
+          "display": "HNTB GeoShare (ArcGIS Online)",
+          "host": "services.arcgis.com",
+          "endpoints_in_bucket": 2457,
+          "endpoints_in_pack": 2457,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services.arcgis.com/rD2ylXRs80UroD90/ArcGIS/rest/services/1000_FT_Buffer_SR70_66/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "1000_FT_Buffer_SR70_66",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        },
+        {
+          "service": "National Audubon Society (ArcGIS Online)",
+          "display": "National Audubon Society (ArcGIS Online)",
+          "host": "services1.arcgis.com",
+          "endpoints_in_bucket": 2223,
+          "endpoints_in_pack": 2223,
+          "country_codes": [
+            "US"
+          ],
+          "formats": [
+            "json"
+          ],
+          "formats_in_pack": 1,
+          "sample_url": "https://services1.arcgis.com/lDFzr3JyGEn5Eymu/ArcGIS/rest/services/%C3%81reas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+          "sample_title": "Áreas_clave_para_la_Biodiversidad_KBA_con_estado_IBA_confirmado_Peru",
+          "sample_format": "json",
+          "sample_last_tested": "2026-11-16"
+        }
+      ]
+    }
+  ]
+}
